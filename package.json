@@ -1,6 +1,6 @@
 {
   "name": "rechargebus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,10 @@
     "url": "https://github.com/rechargebus/tea-community-support/issues"
   },
   "homepage": "https://github.com/rechargebus/tea-community-support#readme",
-  "source": "https://github.com/rechargebus/tea-community-support.git"
+  "source": "https://github.com/rechargebus/tea-community-support.git",
+  "dependencies": {
+    "alchemy-sdk": "^3.2.1",
+    "ethers": "6.12.0",
+    "tea-chalange": "^1.1.1"
+  }
 }
